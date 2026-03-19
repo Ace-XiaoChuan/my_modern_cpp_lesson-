@@ -1,1 +1,0 @@
-/home/ace/my_modern_cpp_lesson/lesson4/ros2_comm_demo/build/ros2_comm_demo/ament_cmake_core/ros2_comm_demoConfig-version.cmake

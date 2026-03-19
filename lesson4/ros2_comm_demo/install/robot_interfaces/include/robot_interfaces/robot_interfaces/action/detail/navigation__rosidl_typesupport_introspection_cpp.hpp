@@ -1,1 +1,0 @@
-/home/ace/my_modern_cpp_lesson/lesson4/ros2_comm_demo/build/robot_interfaces/rosidl_typesupport_introspection_cpp/robot_interfaces/action/detail/navigation__rosidl_typesupport_introspection_cpp.hpp

@@ -1,1 +1,0 @@
-/home/ace/my_modern_cpp_lesson/lesson4/ros2_comm_demo/build/robot_interfaces/rosidl_generator_c/robot_interfaces/srv/detail/get_robot_status__functions.h

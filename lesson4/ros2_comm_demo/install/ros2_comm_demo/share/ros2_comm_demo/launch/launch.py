@@ -1,1 +1,0 @@
-/home/ace/my_modern_cpp_lesson/lesson4/ros2_comm_demo/src/ros2_comm_demo/launch/launch.py

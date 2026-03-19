@@ -1,1 +1,0 @@
-/home/ace/my_modern_cpp_lesson/lesson4/ros2_comm_demo/build/robot_interfaces/rosidl_generator_py/robot_interfaces/_robot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
