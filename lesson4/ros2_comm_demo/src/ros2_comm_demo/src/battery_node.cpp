@@ -1,9 +1,7 @@
 #include <chrono>
-#include <memory>
-#include <string>
 
+#include "std_msgs/msg/int32.hpp"
 #include "rclcpp/rclcpp.hpp"
-#include "std_msgs/msg/string.hpp"
 
 using namespace std::chrono_literals;
 
@@ -12,20 +10,30 @@ class BatteryNode : public rclcpp::Node
 public:
     BatteryNode() : Node("battery_node")
     {
-        publisher_ = this->create_publisher<std_msgs::msg::String>("battery_talker", 10);
+        publisher_ = this->create_publisher<std_msgs::msg::Int32>("battery_level", 10);
         timer_ = this->create_wall_timer(1000ms, [this]()
                                          { timer_callback(); });
     }
 
 private:
+    // ---声明成员变量---
+    int battery_level = 100;
+    rclcpp::Publisher<std_msgs::msg::Int32>::SharedPtr publisher_;
+    rclcpp::TimerBase::SharedPtr timer_;
+
+    // ---声明成员函数---
+    // |---声明回调函数---
     void timer_callback()
     {
-        auto message = std_msgs::msg::String();
-        message.data = "当前电量为42%";
+        auto message = std_msgs::msg::Int32();
+        if (battery_level > 0)
+        {
+            battery_level--;
+        }
+        message.data = battery_level;
+        RCLCPP_INFO(this->get_logger(), "Publishing battery level: %d%%", message.data);
         publisher_->publish(message);
     }
-    rclcpp::Publisher<std_msgs::msg::String>::SharedPtr publisher_;
-    rclcpp::TimerBase::SharedPtr timer_;
 };
 
 int main(int argc, char *argv[])

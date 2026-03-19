@@ -1,0 +1,865 @@
+[0.000000] (-) TimerEvent: {}
+[0.000520] (robot_interfaces) JobQueued: {'identifier': 'robot_interfaces', 'dependencies': OrderedDict()}
+[0.000590] (ros2_comm_demo) JobQueued: {'identifier': 'ros2_comm_demo', 'dependencies': OrderedDict([('robot_interfaces', '/home/ace/my_modern_cpp_lesson/lesson4/ros2_comm_demo/install/robot_interfaces')])}
+[0.000645] (robot_interfaces) JobStarted: {'identifier': 'robot_interfaces'}
+[0.011580] (robot_interfaces) JobProgress: {'identifier': 'robot_interfaces', 'progress': 'cmake'}
+[0.014684] (robot_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/ace/my_modern_cpp_lesson/lesson4/ros2_comm_demo/src/robot_interfaces', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/ace/my_modern_cpp_lesson/lesson4/ros2_comm_demo/install/robot_interfaces'], 'cwd': '/home/ace/my_modern_cpp_lesson/lesson4/ros2_comm_demo/build/robot_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('SVGA_VGPU10', '0'), ('USER', 'ace'), ('GIT_ASKPASS', '/home/ace/.vscode-server/bin/ce099c1ed25d9eb3076c11e4a280f3eb52b4fbeb/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/ace'), ('OLDPWD', '/home/ace/my_modern_cpp_lesson/lesson4/ros2_comm_demo'), ('TERM_PROGRAM_VERSION', '1.111.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-35282fbe-d045-4e50-840f-5954d6e93d3e.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/ace/.vscode-server/bin/ce099c1ed25d9eb3076c11e4a280f3eb52b4fbeb/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/ace/.vscode-server/bin/ce099c1ed25d9eb3076c11e4a280f3eb52b4fbeb/node'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ace'), ('NAME', 'DESKTOP-CD3R3PF'), ('WSL_INTEROP', '/run/WSL/430_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ace/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/ace/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/ace/.vscode-server/bin/ce099c1ed25d9eb3076c11e4a280f3eb52b4fbeb/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/d/vscode/Microsoft VS Code:/mnt/c/Python38/Scripts/:/mnt/c/Python38/:/mnt/c/Program Files/PlasticSCM5/server:/mnt/c/Program Files/PlasticSCM5/client:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/d/adb:/mnt/d/微信web开发者工具/dll:/mnt/c/Pro:/mnt/c/Program Files/nodejs:/mnt/c/Program Files/MySQL/MySQL Server 8.0/bin:/mnt/c/Users/86159/AppData/Roaming/Python:/mnt/c/Program Files/python/Scripts:/mnt/d/BtSoft/panel/script:/mnt/c/Program Files (x86)/Prince/engine/bin:/mnt/d/Git/cmd:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR:/mnt/c/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/160/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/160/DTS/Binn/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/e/Tailscale/:/mnt/c/Program Files/Tailscale/:/mnt/e/MATLAB/runtime/win64:/mnt/e/MATLAB/bin:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/OpenSSL/bin:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/PlasticSCM5/server:/mnt/c/Program Files/PlasticSCM5/client:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0:/mnt/c/Windows/System32/OpenSSH:/mnt/d/adb:/mnt/d/微信web开发者工具/dll:/mnt/c/Pro:/mnt/c/Program Files/nodejs:/mnt/c/Program Files/MySQL/MySQL Server 8.0/bin:/mnt/c/Users/86159/AppData/Roaming/Python:/mnt/c/Program Files/python/Scripts:/mnt/d/BtSoft/panel/script:/mnt/c/Program Files (x86)/Prince/engine/bin:/mnt/d/Git/cmd:/mnt/c/Program Files/dotnet:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR:/mnt/c/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn:/mnt/c/Program Files/Microsoft SQL Server/160/Tools/Binn:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn:/mnt/c/Program Files/Microsoft SQL Server/160/DTS/Binn:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Perform:/mnt/d/vscode/Microsoft VS Code/bin:/mnt/c/Users/86159/AppData/Local/Microsoft/WindowsApps:/mnt/e/Antigravity/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-0040df804d.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/ace/my_modern_cpp_lesson/lesson4/ros2_comm_demo/build/robot_interfaces'), ('TURTLEBOT3_MODEL', 'burger'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099715] (-) TimerEvent: {}
+[0.200158] (-) TimerEvent: {}
+[0.300941] (-) TimerEvent: {}
+[0.331397] (robot_interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.402984] (-) TimerEvent: {}
+[0.503411] (-) TimerEvent: {}
+[0.606840] (-) TimerEvent: {}
+[0.707844] (-) TimerEvent: {}
+[0.808361] (-) TimerEvent: {}
+[0.908882] (-) TimerEvent: {}
+[1.009508] (-) TimerEvent: {}
+[1.110123] (-) TimerEvent: {}
+[1.210845] (-) TimerEvent: {}
+[1.311235] (-) TimerEvent: {}
+[1.387312] (robot_interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.411404] (-) TimerEvent: {}
+[1.511836] (-) TimerEvent: {}
+[1.612287] (-) TimerEvent: {}
+[1.712797] (-) TimerEvent: {}
+[1.813313] (-) TimerEvent: {}
+[1.913917] (-) TimerEvent: {}
+[2.014590] (-) TimerEvent: {}
+[2.086038] (robot_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.114942] (-) TimerEvent: {}
+[2.215433] (-) TimerEvent: {}
+[2.316037] (-) TimerEvent: {}
+[2.413699] (robot_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.416244] (-) TimerEvent: {}
+[2.421253] (robot_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[2.421530] (robot_interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.421892] (robot_interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.424968] (robot_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.516597] (-) TimerEvent: {}
+[2.617307] (-) TimerEvent: {}
+[2.717927] (-) TimerEvent: {}
+[2.743344] (robot_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.751173] (robot_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.751492] (robot_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.751925] (robot_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.755012] (robot_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[2.818356] (-) TimerEvent: {}
+[2.918711] (-) TimerEvent: {}
+[2.989262] (robot_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[3.018970] (-) TimerEvent: {}
+[3.076075] (robot_interfaces) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[3.108066] (robot_interfaces) StdoutLine: {'line': b'-- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[3.119105] (-) TimerEvent: {}
+[3.219523] (-) TimerEvent: {}
+[3.319909] (-) TimerEvent: {}
+[3.420362] (-) TimerEvent: {}
+[3.456272] (robot_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[3.463934] (robot_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[3.474271] (robot_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[3.498220] (robot_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.519809] (robot_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.520499] (-) TimerEvent: {}
+[3.566657] (robot_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[3.621359] (-) TimerEvent: {}
+[3.722294] (-) TimerEvent: {}
+[3.823231] (-) TimerEvent: {}
+[3.898538] (robot_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[3.923486] (-) TimerEvent: {}
+[4.024031] (-) TimerEvent: {}
+[4.124464] (-) TimerEvent: {}
+[4.225750] (-) TimerEvent: {}
+[4.326253] (-) TimerEvent: {}
+[4.340064] (robot_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[4.426906] (-) TimerEvent: {}
+[4.480209] (robot_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.527110] (-) TimerEvent: {}
+[4.627607] (-) TimerEvent: {}
+[4.728050] (-) TimerEvent: {}
+[4.797489] (robot_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[4.799501] (robot_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[4.828288] (-) TimerEvent: {}
+[4.928891] (-) TimerEvent: {}
+[5.029382] (-) TimerEvent: {}
+[5.129992] (-) TimerEvent: {}
+[5.230676] (-) TimerEvent: {}
+[5.331049] (-) TimerEvent: {}
+[5.431485] (-) TimerEvent: {}
+[5.532076] (-) TimerEvent: {}
+[5.632809] (-) TimerEvent: {}
+[5.708784] (robot_interfaces) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[5.709142] (robot_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[5.709262] (robot_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[5.709364] (robot_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[5.733080] (-) TimerEvent: {}
+[5.734134] (robot_interfaces) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[5.833460] (-) TimerEvent: {}
+[5.862449] (robot_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[5.886640] (robot_interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[5.888126] (robot_interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[5.892440] (robot_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[5.933933] (-) TimerEvent: {}
+[5.976395] (robot_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[5.991294] (robot_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/ace/my_modern_cpp_lesson/lesson4/ros2_comm_demo/build/robot_interfaces\n'}
+[6.004738] (robot_interfaces) CommandEnded: {'returncode': 0}
+[6.005646] (robot_interfaces) JobProgress: {'identifier': 'robot_interfaces', 'progress': 'build'}
+[6.006387] (robot_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ace/my_modern_cpp_lesson/lesson4/ros2_comm_demo/build/robot_interfaces', '--', '-j4', '-l4'], 'cwd': '/home/ace/my_modern_cpp_lesson/lesson4/ros2_comm_demo/build/robot_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('SVGA_VGPU10', '0'), ('USER', 'ace'), ('GIT_ASKPASS', '/home/ace/.vscode-server/bin/ce099c1ed25d9eb3076c11e4a280f3eb52b4fbeb/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/ace'), ('OLDPWD', '/home/ace/my_modern_cpp_lesson/lesson4/ros2_comm_demo'), ('TERM_PROGRAM_VERSION', '1.111.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-35282fbe-d045-4e50-840f-5954d6e93d3e.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/ace/.vscode-server/bin/ce099c1ed25d9eb3076c11e4a280f3eb52b4fbeb/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/ace/.vscode-server/bin/ce099c1ed25d9eb3076c11e4a280f3eb52b4fbeb/node'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ace'), ('NAME', 'DESKTOP-CD3R3PF'), ('WSL_INTEROP', '/run/WSL/430_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ace/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/ace/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/ace/.vscode-server/bin/ce099c1ed25d9eb3076c11e4a280f3eb52b4fbeb/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/d/vscode/Microsoft VS Code:/mnt/c/Python38/Scripts/:/mnt/c/Python38/:/mnt/c/Program Files/PlasticSCM5/server:/mnt/c/Program Files/PlasticSCM5/client:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/d/adb:/mnt/d/微信web开发者工具/dll:/mnt/c/Pro:/mnt/c/Program Files/nodejs:/mnt/c/Program Files/MySQL/MySQL Server 8.0/bin:/mnt/c/Users/86159/AppData/Roaming/Python:/mnt/c/Program Files/python/Scripts:/mnt/d/BtSoft/panel/script:/mnt/c/Program Files (x86)/Prince/engine/bin:/mnt/d/Git/cmd:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR:/mnt/c/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/160/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/160/DTS/Binn/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/e/Tailscale/:/mnt/c/Program Files/Tailscale/:/mnt/e/MATLAB/runtime/win64:/mnt/e/MATLAB/bin:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/OpenSSL/bin:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/PlasticSCM5/server:/mnt/c/Program Files/PlasticSCM5/client:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0:/mnt/c/Windows/System32/OpenSSH:/mnt/d/adb:/mnt/d/微信web开发者工具/dll:/mnt/c/Pro:/mnt/c/Program Files/nodejs:/mnt/c/Program Files/MySQL/MySQL Server 8.0/bin:/mnt/c/Users/86159/AppData/Roaming/Python:/mnt/c/Program Files/python/Scripts:/mnt/d/BtSoft/panel/script:/mnt/c/Program Files (x86)/Prince/engine/bin:/mnt/d/Git/cmd:/mnt/c/Program Files/dotnet:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR:/mnt/c/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn:/mnt/c/Program Files/Microsoft SQL Server/160/Tools/Binn:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn:/mnt/c/Program Files/Microsoft SQL Server/160/DTS/Binn:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Perform:/mnt/d/vscode/Microsoft VS Code/bin:/mnt/c/Users/86159/AppData/Local/Microsoft/WindowsApps:/mnt/e/Antigravity/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-0040df804d.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/ace/my_modern_cpp_lesson/lesson4/ros2_comm_demo/build/robot_interfaces'), ('TURTLEBOT3_MODEL', 'burger'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[6.034228] (-) TimerEvent: {}
+[6.052527] (robot_interfaces) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[6.064454] (robot_interfaces) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[6.078218] (robot_interfaces) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_symlink_robot_interfaces\n'}
+[6.136451] (-) TimerEvent: {}
+[6.238754] (-) TimerEvent: {}
+[6.339123] (-) TimerEvent: {}
+[6.439536] (-) TimerEvent: {}
+[6.536312] (robot_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[6.537627] (robot_interfaces) StdoutLine: {'line': b'creating robot_interfaces.egg-info\n'}
+[6.538439] (robot_interfaces) StdoutLine: {'line': b'writing robot_interfaces.egg-info/PKG-INFO\n'}
+[6.538981] (robot_interfaces) StdoutLine: {'line': b'writing dependency_links to robot_interfaces.egg-info/dependency_links.txt\n'}
+[6.539459] (robot_interfaces) StdoutLine: {'line': b'writing top-level names to robot_interfaces.egg-info/top_level.txt\n'}
+[6.539577] (-) TimerEvent: {}
+[6.540088] (robot_interfaces) StdoutLine: {'line': b"writing manifest file 'robot_interfaces.egg-info/SOURCES.txt'\n"}
+[6.543979] (robot_interfaces) StdoutLine: {'line': b"reading manifest file 'robot_interfaces.egg-info/SOURCES.txt'\n"}
+[6.544300] (robot_interfaces) StdoutLine: {'line': b"writing manifest file 'robot_interfaces.egg-info/SOURCES.txt'\n"}
+[6.599716] (robot_interfaces) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_build_robot_interfaces_egg\n'}
+[6.639771] (-) TimerEvent: {}
+[6.740125] (-) TimerEvent: {}
+[6.842795] (-) TimerEvent: {}
+[6.943167] (-) TimerEvent: {}
+[6.955006] (robot_interfaces) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding C object CMakeFiles/robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/robot_interfaces/srv/detail/get_robot_status__functions.c.o\x1b[0m\n'}
+[6.963223] (robot_interfaces) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/robot_interfaces/action/detail/navigation__functions.c.o\x1b[0m\n'}
+[6.971154] (robot_interfaces) StdoutLine: {'line': b'[ 10%] Built target robot_interfaces__cpp\n'}
+[6.991024] (robot_interfaces) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[6.999143] (robot_interfaces) StdoutLine: {'line': b'[ 15%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[7.045397] (-) TimerEvent: {}
+[7.065835] (robot_interfaces) StdoutLine: {'line': b'[ 17%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[7.145853] (-) TimerEvent: {}
+[7.196734] (robot_interfaces) StdoutLine: {'line': b'[ 20%] \x1b[32m\x1b[1mLinking C shared library librobot_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[7.246194] (-) TimerEvent: {}
+[7.346861] (-) TimerEvent: {}
+[7.447235] (-) TimerEvent: {}
+[7.497554] (robot_interfaces) StdoutLine: {'line': b'[ 20%] Built target robot_interfaces__rosidl_generator_c\n'}
+[7.536038] (robot_interfaces) StdoutLine: {'line': b'[ 23%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[7.547396] (-) TimerEvent: {}
+[7.650513] (-) TimerEvent: {}
+[7.753933] (-) TimerEvent: {}
+[7.859113] (-) TimerEvent: {}
+[7.959498] (-) TimerEvent: {}
+[7.964656] (robot_interfaces) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/robot_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robot_interfaces/srv/get_robot_status__type_support.cpp.o\x1b[0m\n'}
+[8.061923] (-) TimerEvent: {}
+[8.162926] (-) TimerEvent: {}
+[8.229104] (robot_interfaces) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/robot_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robot_interfaces/srv/detail/get_robot_status__type_support.cpp.o\x1b[0m\n'}
+[8.263149] (-) TimerEvent: {}
+[8.336721] (robot_interfaces) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/robot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robot_interfaces/srv/detail/dds_fastrtps/get_robot_status__type_support.cpp.o\x1b[0m\n'}
+[8.363395] (-) TimerEvent: {}
+[8.474877] (-) TimerEvent: {}
+[8.575288] (-) TimerEvent: {}
+[8.675772] (-) TimerEvent: {}
+[8.734414] (robot_interfaces) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/robot_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robot_interfaces/action/navigation__type_support.cpp.o\x1b[0m\n'}
+[8.776007] (-) TimerEvent: {}
+[8.883578] (-) TimerEvent: {}
+[8.983975] (-) TimerEvent: {}
+[9.084584] (-) TimerEvent: {}
+[9.175286] (robot_interfaces) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/robot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robot_interfaces/srv/detail/get_robot_status__type_support_c.cpp.o\x1b[0m\n'}
+[9.185153] (-) TimerEvent: {}
+[9.288895] (-) TimerEvent: {}
+[9.398979] (-) TimerEvent: {}
+[9.415485] (robot_interfaces) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/robot_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robot_interfaces/action/detail/navigation__type_support.cpp.o\x1b[0m\n'}
+[9.502948] (-) TimerEvent: {}
+[9.575954] (robot_interfaces) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/robot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robot_interfaces/action/detail/dds_fastrtps/navigation__type_support.cpp.o\x1b[0m\n'}
+[9.604220] (-) TimerEvent: {}
+[9.704806] (-) TimerEvent: {}
+[9.810958] (-) TimerEvent: {}
+[9.911367] (-) TimerEvent: {}
+[10.019727] (-) TimerEvent: {}
+[10.120360] (-) TimerEvent: {}
+[10.223493] (-) TimerEvent: {}
+[10.324032] (-) TimerEvent: {}
+[10.365699] (robot_interfaces) StdoutLine: {'line': b'[ 43%] \x1b[32m\x1b[1mLinking CXX shared library librobot_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[10.426796] (-) TimerEvent: {}
+[10.527580] (-) TimerEvent: {}
+[10.565622] (robot_interfaces) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/robot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robot_interfaces/action/detail/navigation__type_support_c.cpp.o\x1b[0m\n'}
+[10.627777] (-) TimerEvent: {}
+[10.728275] (-) TimerEvent: {}
+[10.829343] (-) TimerEvent: {}
+[10.920558] (robot_interfaces) StdoutLine: {'line': b'[ 46%] Built target robot_interfaces__rosidl_typesupport_cpp\n'}
+[10.929939] (-) TimerEvent: {}
+[10.959174] (robot_interfaces) StdoutLine: {'line': b'[ 48%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[11.031136] (-) TimerEvent: {}
+[11.133321] (-) TimerEvent: {}
+[11.233896] (-) TimerEvent: {}
+[11.334403] (-) TimerEvent: {}
+[11.442688] (-) TimerEvent: {}
+[11.564566] (-) TimerEvent: {}
+[11.567105] (robot_interfaces) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking CXX shared library librobot_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[11.584299] (robot_interfaces) StdoutLine: {'line': b'[ 53%] \x1b[32m\x1b[1mLinking CXX shared library librobot_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[11.666259] (-) TimerEvent: {}
+[11.733744] (robot_interfaces) StdoutLine: {'line': b'[ 56%] \x1b[32m\x1b[1mLinking CXX shared library librobot_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[11.766466] (-) TimerEvent: {}
+[11.869970] (-) TimerEvent: {}
+[11.970768] (-) TimerEvent: {}
+[12.071258] (-) TimerEvent: {}
+[12.171859] (-) TimerEvent: {}
+[12.272682] (-) TimerEvent: {}
+[12.376369] (-) TimerEvent: {}
+[12.424906] (robot_interfaces) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding C object CMakeFiles/robot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robot_interfaces/srv/detail/get_robot_status__type_support.c.o\x1b[0m\n'}
+[12.476650] (-) TimerEvent: {}
+[12.515479] (robot_interfaces) StdoutLine: {'line': b'[ 58%] Built target robot_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[12.519634] (robot_interfaces) StdoutLine: {'line': b'[ 58%] Built target robot_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[12.561385] (robot_interfaces) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding C object CMakeFiles/robot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robot_interfaces/action/detail/navigation__type_support.c.o\x1b[0m\n'}
+[12.577060] (-) TimerEvent: {}
+[12.579919] (robot_interfaces) StdoutLine: {'line': b'[ 64%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[12.645466] (robot_interfaces) StdoutLine: {'line': b'[ 64%] Built target robot_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[12.679051] (-) TimerEvent: {}
+[12.773779] (robot_interfaces) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking C shared library librobot_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[12.779307] (-) TimerEvent: {}
+[12.886100] (-) TimerEvent: {}
+[12.986970] (-) TimerEvent: {}
+[13.087510] (-) TimerEvent: {}
+[13.191789] (-) TimerEvent: {}
+[13.292473] (-) TimerEvent: {}
+[13.393197] (-) TimerEvent: {}
+[13.499058] (-) TimerEvent: {}
+[13.602972] (-) TimerEvent: {}
+[13.706749] (-) TimerEvent: {}
+[13.778789] (robot_interfaces) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object CMakeFiles/robot_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/robot_interfaces/srv/get_robot_status__type_support.cpp.o\x1b[0m\n'}
+[13.783761] (robot_interfaces) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/robot_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/robot_interfaces/action/navigation__type_support.cpp.o\x1b[0m\n'}
+[13.806958] (-) TimerEvent: {}
+[13.907471] (-) TimerEvent: {}
+[13.928414] (robot_interfaces) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library librobot_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[13.989064] (robot_interfaces) StdoutLine: {'line': b'[ 74%] Built target robot_interfaces__rosidl_typesupport_introspection_c\n'}
+[14.007734] (-) TimerEvent: {}
+[14.108272] (-) TimerEvent: {}
+[14.209037] (-) TimerEvent: {}
+[14.310463] (-) TimerEvent: {}
+[14.327633] (robot_interfaces) StdoutLine: {'line': b'[ 74%] Built target robot_interfaces__rosidl_typesupport_c\n'}
+[14.357722] (robot_interfaces) StdoutLine: {'line': b'[ 74%] Built target robot_interfaces\n'}
+[14.383098] (robot_interfaces) StdoutLine: {'line': b'[ 76%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[14.410951] (-) TimerEvent: {}
+[14.511452] (-) TimerEvent: {}
+[14.612200] (-) TimerEvent: {}
+[14.713033] (-) TimerEvent: {}
+[14.813754] (-) TimerEvent: {}
+[14.914464] (-) TimerEvent: {}
+[15.015279] (-) TimerEvent: {}
+[15.115808] (-) TimerEvent: {}
+[15.216825] (-) TimerEvent: {}
+[15.317396] (-) TimerEvent: {}
+[15.418255] (-) TimerEvent: {}
+[15.518977] (-) TimerEvent: {}
+[15.619634] (-) TimerEvent: {}
+[15.722772] (-) TimerEvent: {}
+[15.773960] (robot_interfaces) StdoutLine: {'line': b'[ 76%] Built target robot_interfaces__py\n'}
+[15.800359] (robot_interfaces) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding C object CMakeFiles/robot_interfaces__rosidl_generator_py.dir/rosidl_generator_py/robot_interfaces/srv/_get_robot_status_s.c.o\x1b[0m\n'}
+[15.801846] (robot_interfaces) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/robot_interfaces__rosidl_generator_py.dir/rosidl_generator_py/robot_interfaces/action/_navigation_s.c.o\x1b[0m\n'}
+[15.823003] (-) TimerEvent: {}
+[15.923420] (-) TimerEvent: {}
+[16.021647] (robot_interfaces) StdoutLine: {'line': b'[ 84%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/robot_interfaces/librobot_interfaces__rosidl_generator_py.so\x1b[0m\n'}
+[16.027136] (-) TimerEvent: {}
+[16.127725] (-) TimerEvent: {}
+[16.228352] (-) TimerEvent: {}
+[16.328959] (-) TimerEvent: {}
+[16.336025] (robot_interfaces) StdoutLine: {'line': b'[ 84%] Built target robot_interfaces__rosidl_generator_py\n'}
+[16.369867] (robot_interfaces) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/robot_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/robot_interfaces/_robot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[16.370049] (robot_interfaces) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/robot_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/robot_interfaces/_robot_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[16.372323] (robot_interfaces) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/robot_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/robot_interfaces/_robot_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[16.434970] (-) TimerEvent: {}
+[16.535432] (-) TimerEvent: {}
+[16.592820] (robot_interfaces) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/robot_interfaces/robot_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[16.594886] (robot_interfaces) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/robot_interfaces/robot_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[16.598387] (robot_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/robot_interfaces/robot_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[16.635652] (-) TimerEvent: {}
+[16.736136] (-) TimerEvent: {}
+[16.836696] (-) TimerEvent: {}
+[16.871803] (robot_interfaces) StdoutLine: {'line': b'[100%] Built target robot_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[16.882021] (robot_interfaces) StdoutLine: {'line': b'[100%] Built target robot_interfaces__rosidl_typesupport_c__pyext\n'}
+[16.936906] (-) TimerEvent: {}
+[16.972740] (robot_interfaces) StdoutLine: {'line': b'[100%] Built target robot_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[17.006633] (robot_interfaces) CommandEnded: {'returncode': 0}
+[17.007531] (robot_interfaces) JobProgress: {'identifier': 'robot_interfaces', 'progress': 'install'}
+[17.020872] (robot_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ace/my_modern_cpp_lesson/lesson4/ros2_comm_demo/build/robot_interfaces'], 'cwd': '/home/ace/my_modern_cpp_lesson/lesson4/ros2_comm_demo/build/robot_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('SVGA_VGPU10', '0'), ('USER', 'ace'), ('GIT_ASKPASS', '/home/ace/.vscode-server/bin/ce099c1ed25d9eb3076c11e4a280f3eb52b4fbeb/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/ace'), ('OLDPWD', '/home/ace/my_modern_cpp_lesson/lesson4/ros2_comm_demo'), ('TERM_PROGRAM_VERSION', '1.111.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-35282fbe-d045-4e50-840f-5954d6e93d3e.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/ace/.vscode-server/bin/ce099c1ed25d9eb3076c11e4a280f3eb52b4fbeb/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/ace/.vscode-server/bin/ce099c1ed25d9eb3076c11e4a280f3eb52b4fbeb/node'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ace'), ('NAME', 'DESKTOP-CD3R3PF'), ('WSL_INTEROP', '/run/WSL/430_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ace/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/ace/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/ace/.vscode-server/bin/ce099c1ed25d9eb3076c11e4a280f3eb52b4fbeb/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/d/vscode/Microsoft VS Code:/mnt/c/Python38/Scripts/:/mnt/c/Python38/:/mnt/c/Program Files/PlasticSCM5/server:/mnt/c/Program Files/PlasticSCM5/client:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/d/adb:/mnt/d/微信web开发者工具/dll:/mnt/c/Pro:/mnt/c/Program Files/nodejs:/mnt/c/Program Files/MySQL/MySQL Server 8.0/bin:/mnt/c/Users/86159/AppData/Roaming/Python:/mnt/c/Program Files/python/Scripts:/mnt/d/BtSoft/panel/script:/mnt/c/Program Files (x86)/Prince/engine/bin:/mnt/d/Git/cmd:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR:/mnt/c/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/160/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/160/DTS/Binn/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/e/Tailscale/:/mnt/c/Program Files/Tailscale/:/mnt/e/MATLAB/runtime/win64:/mnt/e/MATLAB/bin:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/OpenSSL/bin:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/PlasticSCM5/server:/mnt/c/Program Files/PlasticSCM5/client:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0:/mnt/c/Windows/System32/OpenSSH:/mnt/d/adb:/mnt/d/微信web开发者工具/dll:/mnt/c/Pro:/mnt/c/Program Files/nodejs:/mnt/c/Program Files/MySQL/MySQL Server 8.0/bin:/mnt/c/Users/86159/AppData/Roaming/Python:/mnt/c/Program Files/python/Scripts:/mnt/d/BtSoft/panel/script:/mnt/c/Program Files (x86)/Prince/engine/bin:/mnt/d/Git/cmd:/mnt/c/Program Files/dotnet:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR:/mnt/c/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn:/mnt/c/Program Files/Microsoft SQL Server/160/Tools/Binn:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn:/mnt/c/Program Files/Microsoft SQL Server/160/DTS/Binn:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Perform:/mnt/d/vscode/Microsoft VS Code/bin:/mnt/c/Users/86159/AppData/Local/Microsoft/WindowsApps:/mnt/e/Antigravity/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-0040df804d.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/ace/my_modern_cpp_lesson/lesson4/ros2_comm_demo/build/robot_interfaces'), ('TURTLEBOT3_MODEL', 'burger'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[17.029487] (robot_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[17.030128] (robot_interfaces) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[17.033056] (robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ace/my_modern_cpp_lesson/lesson4/ros2_comm_demo/install/robot_interfaces/share/ament_index/resource_index/rosidl_interfaces/robot_interfaces\n'}
+[17.037303] (-) TimerEvent: {}
+[17.049141] (robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ace/my_modern_cpp_lesson/lesson4/ros2_comm_demo/install/robot_interfaces/include/robot_interfaces/robot_interfaces/action/detail/navigation__functions.h\n'}
+[17.065682] (robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ace/my_modern_cpp_lesson/lesson4/ros2_comm_demo/install/robot_interfaces/include/robot_interfaces/robot_interfaces/action/detail/navigation__struct.h\n'}
+[17.076243] (robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ace/my_modern_cpp_lesson/lesson4/ros2_comm_demo/install/robot_interfaces/include/robot_interfaces/robot_interfaces/action/detail/navigation__type_support.h\n'}
+[17.088422] (robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ace/my_modern_cpp_lesson/lesson4/ros2_comm_demo/install/robot_interfaces/include/robot_interfaces/robot_interfaces/action/navigation.h\n'}
+[17.100995] (robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ace/my_modern_cpp_lesson/lesson4/ros2_comm_demo/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[17.113363] (robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ace/my_modern_cpp_lesson/lesson4/ros2_comm_demo/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/get_robot_status__functions.h\n'}
+[17.126560] (robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ace/my_modern_cpp_lesson/lesson4/ros2_comm_demo/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/get_robot_status__struct.h\n'}
+[17.137678] (-) TimerEvent: {}
+[17.137970] (robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ace/my_modern_cpp_lesson/lesson4/ros2_comm_demo/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/get_robot_status__type_support.h\n'}
+[17.149067] (robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ace/my_modern_cpp_lesson/lesson4/ros2_comm_demo/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/get_robot_status.h\n'}
+[17.163765] (robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ace/my_modern_cpp_lesson/lesson4/ros2_comm_demo/install/robot_interfaces/share/robot_interfaces/environment/library_path.sh\n'}
+[17.173977] (robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ace/my_modern_cpp_lesson/lesson4/ros2_comm_demo/install/robot_interfaces/share/robot_interfaces/environment/library_path.dsv\n'}
+[17.187214] (robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ace/my_modern_cpp_lesson/lesson4/ros2_comm_demo/install/robot_interfaces/include/robot_interfaces/robot_interfaces/action/detail/navigation__rosidl_typesupport_fastrtps_c.h\n'}
+[17.198616] (robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ace/my_modern_cpp_lesson/lesson4/ros2_comm_demo/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[17.209945] (robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ace/my_modern_cpp_lesson/lesson4/ros2_comm_demo/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/get_robot_status__rosidl_typesupport_fastrtps_c.h\n'}
+[17.221791] (robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ace/my_modern_cpp_lesson/lesson4/ros2_comm_demo/install/robot_interfaces/include/robot_interfaces/robot_interfaces/action/detail/navigation__builder.hpp\n'}
+[17.232692] (robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ace/my_modern_cpp_lesson/lesson4/ros2_comm_demo/install/robot_interfaces/include/robot_interfaces/robot_interfaces/action/detail/navigation__struct.hpp\n'}
+[17.238052] (-) TimerEvent: {}
+[17.243509] (robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ace/my_modern_cpp_lesson/lesson4/ros2_comm_demo/install/robot_interfaces/include/robot_interfaces/robot_interfaces/action/detail/navigation__traits.hpp\n'}
+[17.256887] (robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ace/my_modern_cpp_lesson/lesson4/ros2_comm_demo/install/robot_interfaces/include/robot_interfaces/robot_interfaces/action/detail/navigation__type_support.hpp\n'}
+[17.282811] (robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ace/my_modern_cpp_lesson/lesson4/ros2_comm_demo/install/robot_interfaces/include/robot_interfaces/robot_interfaces/action/navigation.hpp\n'}
+[17.295422] (robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ace/my_modern_cpp_lesson/lesson4/ros2_comm_demo/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[17.307527] (robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ace/my_modern_cpp_lesson/lesson4/ros2_comm_demo/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/get_robot_status__builder.hpp\n'}
+[17.323634] (robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ace/my_modern_cpp_lesson/lesson4/ros2_comm_demo/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/get_robot_status__struct.hpp\n'}
+[17.336839] (robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ace/my_modern_cpp_lesson/lesson4/ros2_comm_demo/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/get_robot_status__traits.hpp\n'}
+[17.338265] (-) TimerEvent: {}
+[17.349730] (robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ace/my_modern_cpp_lesson/lesson4/ros2_comm_demo/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/get_robot_status__type_support.hpp\n'}
+[17.363186] (robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ace/my_modern_cpp_lesson/lesson4/ros2_comm_demo/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/get_robot_status.hpp\n'}
+[17.375502] (robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ace/my_modern_cpp_lesson/lesson4/ros2_comm_demo/install/robot_interfaces/include/robot_interfaces/robot_interfaces/action/detail/navigation__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[17.388322] (robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ace/my_modern_cpp_lesson/lesson4/ros2_comm_demo/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[17.399459] (robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ace/my_modern_cpp_lesson/lesson4/ros2_comm_demo/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/get_robot_status__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[17.410050] (robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ace/my_modern_cpp_lesson/lesson4/ros2_comm_demo/install/robot_interfaces/include/robot_interfaces/robot_interfaces/action/detail/navigation__rosidl_typesupport_introspection_c.h\n'}
+[17.425782] (robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ace/my_modern_cpp_lesson/lesson4/ros2_comm_demo/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[17.436912] (robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ace/my_modern_cpp_lesson/lesson4/ros2_comm_demo/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/get_robot_status__rosidl_typesupport_introspection_c.h\n'}
+[17.438557] (-) TimerEvent: {}
+[17.450653] (robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ace/my_modern_cpp_lesson/lesson4/ros2_comm_demo/install/robot_interfaces/include/robot_interfaces/robot_interfaces/action/detail/navigation__rosidl_typesupport_introspection_cpp.hpp\n'}
+[17.465189] (robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ace/my_modern_cpp_lesson/lesson4/ros2_comm_demo/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/get_robot_status__rosidl_typesupport_introspection_cpp.hpp\n'}
+[17.475340] (robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ace/my_modern_cpp_lesson/lesson4/ros2_comm_demo/install/robot_interfaces/share/robot_interfaces/environment/pythonpath.sh\n'}
+[17.486669] (robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ace/my_modern_cpp_lesson/lesson4/ros2_comm_demo/install/robot_interfaces/share/robot_interfaces/environment/pythonpath.dsv\n'}
+[17.500537] (robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ace/my_modern_cpp_lesson/lesson4/ros2_comm_demo/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[17.510639] (robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ace/my_modern_cpp_lesson/lesson4/ros2_comm_demo/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[17.523491] (robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ace/my_modern_cpp_lesson/lesson4/ros2_comm_demo/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[17.538999] (-) TimerEvent: {}
+[17.551832] (robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ace/my_modern_cpp_lesson/lesson4/ros2_comm_demo/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[17.600177] (robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ace/my_modern_cpp_lesson/lesson4/ros2_comm_demo/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/__init__.py\n'}
+[17.620013] (robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ace/my_modern_cpp_lesson/lesson4/ros2_comm_demo/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/_robot_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[17.639136] (-) TimerEvent: {}
+[17.640378] (robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ace/my_modern_cpp_lesson/lesson4/ros2_comm_demo/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/_robot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[17.653290] (robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ace/my_modern_cpp_lesson/lesson4/ros2_comm_demo/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/_robot_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[17.668126] (robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ace/my_modern_cpp_lesson/lesson4/ros2_comm_demo/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/action/__init__.py\n'}
+[17.679185] (robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ace/my_modern_cpp_lesson/lesson4/ros2_comm_demo/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/action/_navigation.py\n'}
+[17.689863] (robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ace/my_modern_cpp_lesson/lesson4/ros2_comm_demo/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/action/_navigation_s.c\n'}
+[17.700884] (robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ace/my_modern_cpp_lesson/lesson4/ros2_comm_demo/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/librobot_interfaces__rosidl_generator_py.so\n'}
+[17.711064] (robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ace/my_modern_cpp_lesson/lesson4/ros2_comm_demo/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/robot_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[17.723443] (robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ace/my_modern_cpp_lesson/lesson4/ros2_comm_demo/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/robot_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[17.735592] (robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ace/my_modern_cpp_lesson/lesson4/ros2_comm_demo/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/robot_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[17.739332] (-) TimerEvent: {}
+[17.745972] (robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ace/my_modern_cpp_lesson/lesson4/ros2_comm_demo/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/srv/__init__.py\n'}
+[17.760748] (robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ace/my_modern_cpp_lesson/lesson4/ros2_comm_demo/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/srv/_get_robot_status.py\n'}
+[17.771047] (robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ace/my_modern_cpp_lesson/lesson4/ros2_comm_demo/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/srv/_get_robot_status_s.c\n'}
+[17.782085] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ace/my_modern_cpp_lesson/lesson4/ros2_comm_demo/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/robot_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[17.782390] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ace/my_modern_cpp_lesson/lesson4/ros2_comm_demo/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/robot_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[17.782801] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ace/my_modern_cpp_lesson/lesson4/ros2_comm_demo/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/robot_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[17.783981] (robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ace/my_modern_cpp_lesson/lesson4/ros2_comm_demo/install/robot_interfaces/share/robot_interfaces/srv/GetRobotStatus.idl\n'}
+[17.795819] (robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ace/my_modern_cpp_lesson/lesson4/ros2_comm_demo/install/robot_interfaces/share/robot_interfaces/action/Navigation.idl\n'}
+[17.806969] (robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ace/my_modern_cpp_lesson/lesson4/ros2_comm_demo/install/robot_interfaces/share/robot_interfaces/srv/GetRobotStatus.srv\n'}
+[17.818867] (robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ace/my_modern_cpp_lesson/lesson4/ros2_comm_demo/install/robot_interfaces/share/robot_interfaces/srv/GetRobotStatus_Request.msg\n'}
+[17.828465] (robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ace/my_modern_cpp_lesson/lesson4/ros2_comm_demo/install/robot_interfaces/share/robot_interfaces/srv/GetRobotStatus_Response.msg\n'}
+[17.839624] (-) TimerEvent: {}
+[17.853355] (robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ace/my_modern_cpp_lesson/lesson4/ros2_comm_demo/install/robot_interfaces/share/robot_interfaces/action/Navigation.action\n'}
+[17.874039] (robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ace/my_modern_cpp_lesson/lesson4/ros2_comm_demo/install/robot_interfaces/share/ament_index/resource_index/package_run_dependencies/robot_interfaces\n'}
+[17.892730] (robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ace/my_modern_cpp_lesson/lesson4/ros2_comm_demo/install/robot_interfaces/share/ament_index/resource_index/parent_prefix_path/robot_interfaces\n'}
+[17.907080] (robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ace/my_modern_cpp_lesson/lesson4/ros2_comm_demo/install/robot_interfaces/share/robot_interfaces/environment/ament_prefix_path.sh\n'}
+[17.924466] (robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ace/my_modern_cpp_lesson/lesson4/ros2_comm_demo/install/robot_interfaces/share/robot_interfaces/environment/ament_prefix_path.dsv\n'}
+[17.936727] (robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ace/my_modern_cpp_lesson/lesson4/ros2_comm_demo/install/robot_interfaces/share/robot_interfaces/environment/path.sh\n'}
+[17.939844] (-) TimerEvent: {}
+[17.952077] (robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ace/my_modern_cpp_lesson/lesson4/ros2_comm_demo/install/robot_interfaces/share/robot_interfaces/environment/path.dsv\n'}
+[17.967195] (robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ace/my_modern_cpp_lesson/lesson4/ros2_comm_demo/install/robot_interfaces/share/robot_interfaces/local_setup.bash\n'}
+[17.979626] (robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ace/my_modern_cpp_lesson/lesson4/ros2_comm_demo/install/robot_interfaces/share/robot_interfaces/local_setup.sh\n'}
+[17.992067] (robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ace/my_modern_cpp_lesson/lesson4/ros2_comm_demo/install/robot_interfaces/share/robot_interfaces/local_setup.zsh\n'}
+[18.002880] (robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ace/my_modern_cpp_lesson/lesson4/ros2_comm_demo/install/robot_interfaces/share/robot_interfaces/local_setup.dsv\n'}
+[18.015286] (robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ace/my_modern_cpp_lesson/lesson4/ros2_comm_demo/install/robot_interfaces/share/robot_interfaces/package.dsv\n'}
+[18.034604] (robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ace/my_modern_cpp_lesson/lesson4/ros2_comm_demo/install/robot_interfaces/share/ament_index/resource_index/packages/robot_interfaces\n'}
+[18.042871] (-) TimerEvent: {}
+[18.053086] (robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ace/my_modern_cpp_lesson/lesson4/ros2_comm_demo/install/robot_interfaces/share/robot_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[18.076883] (robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ace/my_modern_cpp_lesson/lesson4/ros2_comm_demo/install/robot_interfaces/share/robot_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[18.101714] (robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ace/my_modern_cpp_lesson/lesson4/ros2_comm_demo/install/robot_interfaces/share/robot_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[18.138084] (robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ace/my_modern_cpp_lesson/lesson4/ros2_comm_demo/install/robot_interfaces/share/robot_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[18.143011] (-) TimerEvent: {}
+[18.164398] (robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ace/my_modern_cpp_lesson/lesson4/ros2_comm_demo/install/robot_interfaces/share/robot_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[18.189079] (robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ace/my_modern_cpp_lesson/lesson4/ros2_comm_demo/install/robot_interfaces/share/robot_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[18.209295] (robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ace/my_modern_cpp_lesson/lesson4/ros2_comm_demo/install/robot_interfaces/share/robot_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[18.235858] (robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ace/my_modern_cpp_lesson/lesson4/ros2_comm_demo/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfacesConfig.cmake\n'}
+[18.243182] (-) TimerEvent: {}
+[18.260141] (robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ace/my_modern_cpp_lesson/lesson4/ros2_comm_demo/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfacesConfig-version.cmake\n'}
+[18.299250] (robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ace/my_modern_cpp_lesson/lesson4/ros2_comm_demo/install/robot_interfaces/share/robot_interfaces/package.xml\n'}
+[18.315940] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/ace/my_modern_cpp_lesson/lesson4/ros2_comm_demo/install/robot_interfaces/lib/librobot_interfaces__rosidl_generator_c.so\n'}
+[18.317049] (robot_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/ace/my_modern_cpp_lesson/lesson4/ros2_comm_demo/install/robot_interfaces/lib/librobot_interfaces__rosidl_generator_c.so" to ""\n'}
+[18.320218] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/ace/my_modern_cpp_lesson/lesson4/ros2_comm_demo/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[18.320843] (robot_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/ace/my_modern_cpp_lesson/lesson4/ros2_comm_demo/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[18.320955] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/ace/my_modern_cpp_lesson/lesson4/ros2_comm_demo/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[18.321057] (robot_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/ace/my_modern_cpp_lesson/lesson4/ros2_comm_demo/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[18.321690] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/ace/my_modern_cpp_lesson/lesson4/ros2_comm_demo/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[18.321860] (robot_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/ace/my_modern_cpp_lesson/lesson4/ros2_comm_demo/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[18.322026] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/ace/my_modern_cpp_lesson/lesson4/ros2_comm_demo/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_c.so\n'}
+[18.322120] (robot_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/ace/my_modern_cpp_lesson/lesson4/ros2_comm_demo/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[18.322193] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/ace/my_modern_cpp_lesson/lesson4/ros2_comm_demo/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[18.322925] (robot_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/ace/my_modern_cpp_lesson/lesson4/ros2_comm_demo/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[18.323059] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/ace/my_modern_cpp_lesson/lesson4/ros2_comm_demo/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_cpp.so\n'}
+[18.323314] (robot_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/ace/my_modern_cpp_lesson/lesson4/ros2_comm_demo/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[18.343352] (-) TimerEvent: {}
+[18.396912] (robot_interfaces) StdoutLine: {'line': b"Listing '/home/ace/my_modern_cpp_lesson/lesson4/ros2_comm_demo/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces'...\n"}
+[18.397195] (robot_interfaces) StdoutLine: {'line': b"Compiling '/home/ace/my_modern_cpp_lesson/lesson4/ros2_comm_demo/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/__init__.py'...\n"}
+[18.397344] (robot_interfaces) StdoutLine: {'line': b"Listing '/home/ace/my_modern_cpp_lesson/lesson4/ros2_comm_demo/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/action'...\n"}
+[18.397451] (robot_interfaces) StdoutLine: {'line': b"Compiling '/home/ace/my_modern_cpp_lesson/lesson4/ros2_comm_demo/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/action/__init__.py'...\n"}
+[18.397554] (robot_interfaces) StdoutLine: {'line': b"Compiling '/home/ace/my_modern_cpp_lesson/lesson4/ros2_comm_demo/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/action/_navigation.py'...\n"}
+[18.397650] (robot_interfaces) StdoutLine: {'line': b"Listing '/home/ace/my_modern_cpp_lesson/lesson4/ros2_comm_demo/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/srv'...\n"}
+[18.397740] (robot_interfaces) StdoutLine: {'line': b"Compiling '/home/ace/my_modern_cpp_lesson/lesson4/ros2_comm_demo/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/srv/__init__.py'...\n"}
+[18.397970] (robot_interfaces) StdoutLine: {'line': b"Compiling '/home/ace/my_modern_cpp_lesson/lesson4/ros2_comm_demo/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/srv/_get_robot_status.py'...\n"}
+[18.426917] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/ace/my_modern_cpp_lesson/lesson4/ros2_comm_demo/install/robot_interfaces/lib/librobot_interfaces__rosidl_generator_py.so\n'}
+[18.427134] (robot_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/ace/my_modern_cpp_lesson/lesson4/ros2_comm_demo/install/robot_interfaces/lib/librobot_interfaces__rosidl_generator_py.so" to ""\n'}
+[18.427254] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/ace/my_modern_cpp_lesson/lesson4/ros2_comm_demo/install/robot_interfaces/share/robot_interfaces/cmake/export_robot_interfaces__rosidl_generator_cExport.cmake\n'}
+[18.427360] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/ace/my_modern_cpp_lesson/lesson4/ros2_comm_demo/install/robot_interfaces/share/robot_interfaces/cmake/export_robot_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[18.427465] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/ace/my_modern_cpp_lesson/lesson4/ros2_comm_demo/install/robot_interfaces/share/robot_interfaces/cmake/export_robot_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[18.427571] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/ace/my_modern_cpp_lesson/lesson4/ros2_comm_demo/install/robot_interfaces/share/robot_interfaces/cmake/export_robot_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[18.427681] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/ace/my_modern_cpp_lesson/lesson4/ros2_comm_demo/install/robot_interfaces/share/robot_interfaces/cmake/export_robot_interfaces__rosidl_generator_cppExport.cmake\n'}
+[18.427792] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/ace/my_modern_cpp_lesson/lesson4/ros2_comm_demo/install/robot_interfaces/share/robot_interfaces/cmake/export_robot_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[18.427860] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/ace/my_modern_cpp_lesson/lesson4/ros2_comm_demo/install/robot_interfaces/share/robot_interfaces/cmake/export_robot_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[18.427917] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/ace/my_modern_cpp_lesson/lesson4/ros2_comm_demo/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[18.427968] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/ace/my_modern_cpp_lesson/lesson4/ros2_comm_demo/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[18.428018] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/ace/my_modern_cpp_lesson/lesson4/ros2_comm_demo/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[18.428376] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/ace/my_modern_cpp_lesson/lesson4/ros2_comm_demo/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[18.428591] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/ace/my_modern_cpp_lesson/lesson4/ros2_comm_demo/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[18.428750] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/ace/my_modern_cpp_lesson/lesson4/ros2_comm_demo/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[18.428929] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/ace/my_modern_cpp_lesson/lesson4/ros2_comm_demo/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[18.429181] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/ace/my_modern_cpp_lesson/lesson4/ros2_comm_demo/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[18.429462] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/ace/my_modern_cpp_lesson/lesson4/ros2_comm_demo/install/robot_interfaces/share/robot_interfaces/cmake/export_robot_interfaces__rosidl_generator_pyExport.cmake\n'}
+[18.429722] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/ace/my_modern_cpp_lesson/lesson4/ros2_comm_demo/install/robot_interfaces/share/robot_interfaces/cmake/export_robot_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[18.433098] (robot_interfaces) CommandEnded: {'returncode': 0}
+[18.444058] (-) TimerEvent: {}
+[18.478728] (robot_interfaces) JobEnded: {'identifier': 'robot_interfaces', 'rc': 0}
+[18.480217] (ros2_comm_demo) JobStarted: {'identifier': 'ros2_comm_demo'}
+[18.544389] (-) TimerEvent: {}
+[18.645009] (-) TimerEvent: {}
+[18.746049] (-) TimerEvent: {}
+[18.846860] (-) TimerEvent: {}
+[18.947404] (-) TimerEvent: {}
+[19.047993] (-) TimerEvent: {}
+[19.052376] (ros2_comm_demo) JobProgress: {'identifier': 'ros2_comm_demo', 'progress': 'cmake'}
+[19.058219] (ros2_comm_demo) Command: {'cmd': ['/usr/bin/cmake', '/home/ace/my_modern_cpp_lesson/lesson4/ros2_comm_demo/src/ros2_comm_demo', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/ace/my_modern_cpp_lesson/lesson4/ros2_comm_demo/install/ros2_comm_demo'], 'cwd': '/home/ace/my_modern_cpp_lesson/lesson4/ros2_comm_demo/build/ros2_comm_demo', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('SVGA_VGPU10', '0'), ('USER', 'ace'), ('GIT_ASKPASS', '/home/ace/.vscode-server/bin/ce099c1ed25d9eb3076c11e4a280f3eb52b4fbeb/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/home/ace/my_modern_cpp_lesson/lesson4/ros2_comm_demo/install/robot_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/ace'), ('OLDPWD', '/home/ace/my_modern_cpp_lesson/lesson4/ros2_comm_demo'), ('TERM_PROGRAM_VERSION', '1.111.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-35282fbe-d045-4e50-840f-5954d6e93d3e.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/ace/.vscode-server/bin/ce099c1ed25d9eb3076c11e4a280f3eb52b4fbeb/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/ace/.vscode-server/bin/ce099c1ed25d9eb3076c11e4a280f3eb52b4fbeb/node'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ace'), ('NAME', 'DESKTOP-CD3R3PF'), ('WSL_INTEROP', '/run/WSL/430_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ace/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/ace/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/ace/.vscode-server/bin/ce099c1ed25d9eb3076c11e4a280f3eb52b4fbeb/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/d/vscode/Microsoft VS Code:/mnt/c/Python38/Scripts/:/mnt/c/Python38/:/mnt/c/Program Files/PlasticSCM5/server:/mnt/c/Program Files/PlasticSCM5/client:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/d/adb:/mnt/d/微信web开发者工具/dll:/mnt/c/Pro:/mnt/c/Program Files/nodejs:/mnt/c/Program Files/MySQL/MySQL Server 8.0/bin:/mnt/c/Users/86159/AppData/Roaming/Python:/mnt/c/Program Files/python/Scripts:/mnt/d/BtSoft/panel/script:/mnt/c/Program Files (x86)/Prince/engine/bin:/mnt/d/Git/cmd:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR:/mnt/c/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/160/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/160/DTS/Binn/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/e/Tailscale/:/mnt/c/Program Files/Tailscale/:/mnt/e/MATLAB/runtime/win64:/mnt/e/MATLAB/bin:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/OpenSSL/bin:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/PlasticSCM5/server:/mnt/c/Program Files/PlasticSCM5/client:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0:/mnt/c/Windows/System32/OpenSSH:/mnt/d/adb:/mnt/d/微信web开发者工具/dll:/mnt/c/Pro:/mnt/c/Program Files/nodejs:/mnt/c/Program Files/MySQL/MySQL Server 8.0/bin:/mnt/c/Users/86159/AppData/Roaming/Python:/mnt/c/Program Files/python/Scripts:/mnt/d/BtSoft/panel/script:/mnt/c/Program Files (x86)/Prince/engine/bin:/mnt/d/Git/cmd:/mnt/c/Program Files/dotnet:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR:/mnt/c/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn:/mnt/c/Program Files/Microsoft SQL Server/160/Tools/Binn:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn:/mnt/c/Program Files/Microsoft SQL Server/160/DTS/Binn:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Perform:/mnt/d/vscode/Microsoft VS Code/bin:/mnt/c/Users/86159/AppData/Local/Microsoft/WindowsApps:/mnt/e/Antigravity/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-0040df804d.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/ace/my_modern_cpp_lesson/lesson4/ros2_comm_demo/install/robot_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/ace/my_modern_cpp_lesson/lesson4/ros2_comm_demo/build/ros2_comm_demo'), ('TURTLEBOT3_MODEL', 'burger'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ace/my_modern_cpp_lesson/lesson4/ros2_comm_demo/install/robot_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up'), ('CMAKE_PREFIX_PATH', '/home/ace/my_modern_cpp_lesson/lesson4/ros2_comm_demo/install/robot_interfaces:/opt/ros/humble')]), 'shell': False}
+[19.148211] (-) TimerEvent: {}
+[19.248886] (-) TimerEvent: {}
+[19.349676] (-) TimerEvent: {}
+[19.450430] (-) TimerEvent: {}
+[19.524741] (ros2_comm_demo) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[19.550823] (-) TimerEvent: {}
+[19.651312] (-) TimerEvent: {}
+[19.752192] (-) TimerEvent: {}
+[19.852868] (-) TimerEvent: {}
+[19.953487] (-) TimerEvent: {}
+[20.054525] (-) TimerEvent: {}
+[20.155004] (-) TimerEvent: {}
+[20.255521] (-) TimerEvent: {}
+[20.356074] (-) TimerEvent: {}
+[20.456651] (-) TimerEvent: {}
+[20.557275] (-) TimerEvent: {}
+[20.658034] (-) TimerEvent: {}
+[20.758711] (-) TimerEvent: {}
+[20.781353] (ros2_comm_demo) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[20.858982] (-) TimerEvent: {}
+[20.959777] (-) TimerEvent: {}
+[21.060342] (-) TimerEvent: {}
+[21.160885] (-) TimerEvent: {}
+[21.262766] (-) TimerEvent: {}
+[21.363265] (-) TimerEvent: {}
+[21.463688] (-) TimerEvent: {}
+[21.564242] (-) TimerEvent: {}
+[21.664733] (-) TimerEvent: {}
+[21.717004] (ros2_comm_demo) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[21.765100] (-) TimerEvent: {}
+[21.865796] (-) TimerEvent: {}
+[21.966531] (-) TimerEvent: {}
+[22.066958] (-) TimerEvent: {}
+[22.138254] (ros2_comm_demo) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[22.148428] (ros2_comm_demo) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[22.148750] (ros2_comm_demo) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[22.148997] (ros2_comm_demo) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[22.152013] (ros2_comm_demo) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[22.167123] (-) TimerEvent: {}
+[22.267555] (-) TimerEvent: {}
+[22.368011] (-) TimerEvent: {}
+[22.468462] (-) TimerEvent: {}
+[22.542088] (ros2_comm_demo) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[22.552602] (ros2_comm_demo) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[22.553323] (ros2_comm_demo) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[22.553897] (ros2_comm_demo) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[22.557551] (ros2_comm_demo) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[22.568731] (-) TimerEvent: {}
+[22.669227] (-) TimerEvent: {}
+[22.769875] (-) TimerEvent: {}
+[22.774719] (ros2_comm_demo) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[22.864168] (ros2_comm_demo) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[22.870265] (-) TimerEvent: {}
+[22.906572] (ros2_comm_demo) StdoutLine: {'line': b'-- Found rclcpp: 16.0.16 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[22.970642] (-) TimerEvent: {}
+[23.071156] (-) TimerEvent: {}
+[23.171677] (-) TimerEvent: {}
+[23.272670] (-) TimerEvent: {}
+[23.373242] (-) TimerEvent: {}
+[23.376973] (ros2_comm_demo) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[23.388618] (ros2_comm_demo) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[23.404401] (ros2_comm_demo) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[23.426179] (ros2_comm_demo) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[23.461455] (ros2_comm_demo) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[23.474252] (-) TimerEvent: {}
+[23.543789] (ros2_comm_demo) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[23.548724] (ros2_comm_demo) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)\n'}
+[23.574824] (-) TimerEvent: {}
+[23.581243] (ros2_comm_demo) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[23.595283] (ros2_comm_demo) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[23.674963] (-) TimerEvent: {}
+[23.775377] (-) TimerEvent: {}
+[23.875946] (-) TimerEvent: {}
+[23.976449] (-) TimerEvent: {}
+[24.038789] (ros2_comm_demo) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[24.039255] (ros2_comm_demo) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[24.076797] (-) TimerEvent: {}
+[24.177821] (-) TimerEvent: {}
+[24.278943] (-) TimerEvent: {}
+[24.379439] (-) TimerEvent: {}
+[24.480050] (-) TimerEvent: {}
+[24.534025] (ros2_comm_demo) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[24.535234] (ros2_comm_demo) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[24.580356] (-) TimerEvent: {}
+[24.631015] (ros2_comm_demo) StdoutLine: {'line': b'-- Found robot_interfaces: 0.0.0 (/home/ace/my_modern_cpp_lesson/lesson4/ros2_comm_demo/install/robot_interfaces/share/robot_interfaces/cmake)\n'}
+[24.680650] (-) TimerEvent: {}
+[24.725686] (ros2_comm_demo) StdoutLine: {'line': b'-- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[24.764923] (ros2_comm_demo) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[24.781267] (-) TimerEvent: {}
+[24.882254] (-) TimerEvent: {}
+[24.935781] (ros2_comm_demo) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[24.936145] (ros2_comm_demo) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[24.936227] (ros2_comm_demo) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[24.939942] (ros2_comm_demo) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[24.951761] (ros2_comm_demo) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[24.955657] (ros2_comm_demo) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[24.982074] (ros2_comm_demo) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[24.982385] (-) TimerEvent: {}
+[24.988022] (ros2_comm_demo) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[24.992987] (ros2_comm_demo) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[24.995694] (ros2_comm_demo) StdoutLine: {'line': b'-- Configuring done\n'}
+[25.042091] (ros2_comm_demo) StdoutLine: {'line': b'-- Generating done\n'}
+[25.065950] (ros2_comm_demo) StdoutLine: {'line': b'-- Build files have been written to: /home/ace/my_modern_cpp_lesson/lesson4/ros2_comm_demo/build/ros2_comm_demo\n'}
+[25.083876] (ros2_comm_demo) CommandEnded: {'returncode': 0}
+[25.085824] (-) TimerEvent: {}
+[25.086016] (ros2_comm_demo) JobProgress: {'identifier': 'ros2_comm_demo', 'progress': 'build'}
+[25.086059] (ros2_comm_demo) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ace/my_modern_cpp_lesson/lesson4/ros2_comm_demo/build/ros2_comm_demo', '--', '-j4', '-l4'], 'cwd': '/home/ace/my_modern_cpp_lesson/lesson4/ros2_comm_demo/build/ros2_comm_demo', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('SVGA_VGPU10', '0'), ('USER', 'ace'), ('GIT_ASKPASS', '/home/ace/.vscode-server/bin/ce099c1ed25d9eb3076c11e4a280f3eb52b4fbeb/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/home/ace/my_modern_cpp_lesson/lesson4/ros2_comm_demo/install/robot_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/ace'), ('OLDPWD', '/home/ace/my_modern_cpp_lesson/lesson4/ros2_comm_demo'), ('TERM_PROGRAM_VERSION', '1.111.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-35282fbe-d045-4e50-840f-5954d6e93d3e.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/ace/.vscode-server/bin/ce099c1ed25d9eb3076c11e4a280f3eb52b4fbeb/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/ace/.vscode-server/bin/ce099c1ed25d9eb3076c11e4a280f3eb52b4fbeb/node'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ace'), ('NAME', 'DESKTOP-CD3R3PF'), ('WSL_INTEROP', '/run/WSL/430_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ace/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/ace/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/ace/.vscode-server/bin/ce099c1ed25d9eb3076c11e4a280f3eb52b4fbeb/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/d/vscode/Microsoft VS Code:/mnt/c/Python38/Scripts/:/mnt/c/Python38/:/mnt/c/Program Files/PlasticSCM5/server:/mnt/c/Program Files/PlasticSCM5/client:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/d/adb:/mnt/d/微信web开发者工具/dll:/mnt/c/Pro:/mnt/c/Program Files/nodejs:/mnt/c/Program Files/MySQL/MySQL Server 8.0/bin:/mnt/c/Users/86159/AppData/Roaming/Python:/mnt/c/Program Files/python/Scripts:/mnt/d/BtSoft/panel/script:/mnt/c/Program Files (x86)/Prince/engine/bin:/mnt/d/Git/cmd:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR:/mnt/c/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/160/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/160/DTS/Binn/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/e/Tailscale/:/mnt/c/Program Files/Tailscale/:/mnt/e/MATLAB/runtime/win64:/mnt/e/MATLAB/bin:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/OpenSSL/bin:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/PlasticSCM5/server:/mnt/c/Program Files/PlasticSCM5/client:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0:/mnt/c/Windows/System32/OpenSSH:/mnt/d/adb:/mnt/d/微信web开发者工具/dll:/mnt/c/Pro:/mnt/c/Program Files/nodejs:/mnt/c/Program Files/MySQL/MySQL Server 8.0/bin:/mnt/c/Users/86159/AppData/Roaming/Python:/mnt/c/Program Files/python/Scripts:/mnt/d/BtSoft/panel/script:/mnt/c/Program Files (x86)/Prince/engine/bin:/mnt/d/Git/cmd:/mnt/c/Program Files/dotnet:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR:/mnt/c/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn:/mnt/c/Program Files/Microsoft SQL Server/160/Tools/Binn:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn:/mnt/c/Program Files/Microsoft SQL Server/160/DTS/Binn:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Perform:/mnt/d/vscode/Microsoft VS Code/bin:/mnt/c/Users/86159/AppData/Local/Microsoft/WindowsApps:/mnt/e/Antigravity/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-0040df804d.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/ace/my_modern_cpp_lesson/lesson4/ros2_comm_demo/install/robot_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/ace/my_modern_cpp_lesson/lesson4/ros2_comm_demo/build/ros2_comm_demo'), ('TURTLEBOT3_MODEL', 'burger'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ace/my_modern_cpp_lesson/lesson4/ros2_comm_demo/install/robot_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up'), ('CMAKE_PREFIX_PATH', '/home/ace/my_modern_cpp_lesson/lesson4/ros2_comm_demo/install/robot_interfaces:/opt/ros/humble')]), 'shell': False}
+[25.187886] (-) TimerEvent: {}
+[25.199487] (ros2_comm_demo) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding CXX object CMakeFiles/pose_node.dir/src/pose_node.cpp.o\x1b[0m\n'}
+[25.199793] (ros2_comm_demo) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/task_manager_node.dir/src/task_manager_node.cpp.o\x1b[0m\n'}
+[25.203861] (ros2_comm_demo) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/command_node.dir/src/command_node.cpp.o\x1b[0m\n'}
+[25.216657] (ros2_comm_demo) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/battery_node.dir/src/battery_node.cpp.o\x1b[0m\n'}
+[25.288109] (-) TimerEvent: {}
+[25.388586] (-) TimerEvent: {}
+[25.492040] (-) TimerEvent: {}
+[25.595458] (-) TimerEvent: {}
+[25.698932] (-) TimerEvent: {}
+[25.800532] (-) TimerEvent: {}
+[25.901173] (-) TimerEvent: {}
+[26.002330] (-) TimerEvent: {}
+[26.107176] (-) TimerEvent: {}
+[26.207628] (-) TimerEvent: {}
+[26.308241] (-) TimerEvent: {}
+[26.409159] (-) TimerEvent: {}
+[26.510340] (-) TimerEvent: {}
+[26.610980] (-) TimerEvent: {}
+[26.711415] (-) TimerEvent: {}
+[26.811914] (-) TimerEvent: {}
+[26.912367] (-) TimerEvent: {}
+[27.012924] (-) TimerEvent: {}
+[27.118958] (-) TimerEvent: {}
+[27.219539] (-) TimerEvent: {}
+[27.324043] (-) TimerEvent: {}
+[27.425134] (-) TimerEvent: {}
+[27.530948] (-) TimerEvent: {}
+[27.631497] (-) TimerEvent: {}
+[27.732236] (-) TimerEvent: {}
+[27.833180] (-) TimerEvent: {}
+[27.938995] (-) TimerEvent: {}
+[28.039423] (-) TimerEvent: {}
+[28.139890] (-) TimerEvent: {}
+[28.242842] (-) TimerEvent: {}
+[28.346909] (-) TimerEvent: {}
+[28.447264] (-) TimerEvent: {}
+[28.547693] (-) TimerEvent: {}
+[28.648844] (-) TimerEvent: {}
+[28.749566] (-) TimerEvent: {}
+[28.859005] (-) TimerEvent: {}
+[28.959443] (-) TimerEvent: {}
+[29.059954] (-) TimerEvent: {}
+[29.161512] (-) TimerEvent: {}
+[29.262162] (-) TimerEvent: {}
+[29.379142] (-) TimerEvent: {}
+[29.483017] (-) TimerEvent: {}
+[29.586914] (-) TimerEvent: {}
+[29.687333] (-) TimerEvent: {}
+[29.791093] (-) TimerEvent: {}
+[29.894962] (-) TimerEvent: {}
+[29.995376] (-) TimerEvent: {}
+[30.096140] (-) TimerEvent: {}
+[30.196680] (-) TimerEvent: {}
+[30.298768] (-) TimerEvent: {}
+[30.399204] (-) TimerEvent: {}
+[30.502877] (-) TimerEvent: {}
+[30.603479] (-) TimerEvent: {}
+[30.710990] (-) TimerEvent: {}
+[30.811440] (-) TimerEvent: {}
+[30.911886] (-) TimerEvent: {}
+[31.012397] (-) TimerEvent: {}
+[31.112973] (-) TimerEvent: {}
+[31.213513] (-) TimerEvent: {}
+[31.319149] (-) TimerEvent: {}
+[31.419541] (-) TimerEvent: {}
+[31.522298] (-) TimerEvent: {}
+[31.623155] (-) TimerEvent: {}
+[31.727069] (-) TimerEvent: {}
+[31.827884] (-) TimerEvent: {}
+[31.931096] (-) TimerEvent: {}
+[32.035154] (-) TimerEvent: {}
+[32.136619] (-) TimerEvent: {}
+[32.237481] (-) TimerEvent: {}
+[32.338915] (-) TimerEvent: {}
+[32.443442] (-) TimerEvent: {}
+[32.543924] (-) TimerEvent: {}
+[32.644438] (-) TimerEvent: {}
+[32.749671] (-) TimerEvent: {}
+[32.850453] (-) TimerEvent: {}
+[32.950935] (-) TimerEvent: {}
+[33.055059] (-) TimerEvent: {}
+[33.155548] (-) TimerEvent: {}
+[33.223162] (ros2_comm_demo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[33.223458] (ros2_comm_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[33.223595] (ros2_comm_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[33.223707] (ros2_comm_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[33.223814] (ros2_comm_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[33.223916] (ros2_comm_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[33.224013] (ros2_comm_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[33.224111] (ros2_comm_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[33.224205] (ros2_comm_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[33.224293] (ros2_comm_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[33.224381] (ros2_comm_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[33.224506] (ros2_comm_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ace/my_modern_cpp_lesson/lesson4/ros2_comm_demo/src/ros2_comm_demo/src/command_node.cpp:3\x1b[m\x1b[K:\n'}
+[33.224603] (ros2_comm_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ace/my_modern_cpp_lesson/lesson4/ros2_comm_demo/src/ros2_comm_demo/src/command_node.cpp:\x1b[m\x1b[K In lambda function:\n'}
+[33.224701] (ros2_comm_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ace/my_modern_cpp_lesson/lesson4/ros2_comm_demo/src/ros2_comm_demo/src/command_node.cpp:45:45:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%d\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99, but argument 5 has type \xe2\x80\x98\x1b[01m\x1b[Krobot_interfaces::srv::GetRobotStatus_Response_<std::allocator<void> >::_battery_level_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<char>\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=\x07-Wformat=\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[33.224810] (ros2_comm_demo) StderrLine: {'line': b'   45 |             RCLCPP_INFO(this->get_logger(), \x1b[01;35m\x1b[K"\xe7\x94\xb5\xe9\x87\x8f\xe4\xb8\xba\xef\xbc\x9a%d,\xe4\xbd\x8d\xe7\xbd\xae\xe4\xb8\xba\xef\xbc\x9a%.1f,%.1f,%.1f,\xe4\xbb\xbb\xe5\x8a\xa1\xe7\x8a\xb6\xe6\x80\x81\xe4\xb8\xba\xef\xbc\x9a%d"\x1b[m\x1b[K, response->battery_level,\n'}
+[33.224911] (ros2_comm_demo) StderrLine: {'line': b'      |                                             \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[33.225007] (ros2_comm_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ace/my_modern_cpp_lesson/lesson4/ros2_comm_demo/src/ros2_comm_demo/src/command_node.cpp:45:55:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[33.226031] (ros2_comm_demo) StderrLine: {'line': b'   45 |             RCLCPP_INFO(this->get_logger(), "\xe7\x94\xb5\xe9\x87\x8f\xe4\xb8\xba\xef\xbc\x9a\x1b[01;36m\x1b[K%d\x1b[m\x1b[K,\xe4\xbd\x8d\xe7\xbd\xae\xe4\xb8\xba\xef\xbc\x9a%.1f,%.1f,%.1f,\xe4\xbb\xbb\xe5\x8a\xa1\xe7\x8a\xb6\xe6\x80\x81\xe4\xb8\xba\xef\xbc\x9a%d", response->battery_level,\n'}
+[33.226771] (ros2_comm_demo) StderrLine: {'line': b'      |                                                      \x1b[01;36m\x1b[K~^\x1b[m\x1b[K\n'}
+[33.231356] (ros2_comm_demo) StderrLine: {'line': b'      |                                                       \x1b[01;36m\x1b[K|\x1b[m\x1b[K\n'}
+[33.231570] (ros2_comm_demo) StderrLine: {'line': b'      |                                                       \x1b[01;36m\x1b[Kint\x1b[m\x1b[K\n'}
+[33.255737] (-) TimerEvent: {}
+[33.356222] (-) TimerEvent: {}
+[33.458802] (-) TimerEvent: {}
+[33.559382] (-) TimerEvent: {}
+[33.663112] (-) TimerEvent: {}
+[33.773554] (-) TimerEvent: {}
+[33.874252] (-) TimerEvent: {}
+[33.974950] (-) TimerEvent: {}
+[34.079194] (-) TimerEvent: {}
+[34.179707] (-) TimerEvent: {}
+[34.280735] (-) TimerEvent: {}
+[34.382764] (-) TimerEvent: {}
+[34.483219] (-) TimerEvent: {}
+[34.583724] (-) TimerEvent: {}
+[34.690968] (-) TimerEvent: {}
+[34.791435] (-) TimerEvent: {}
+[34.891964] (-) TimerEvent: {}
+[34.992857] (-) TimerEvent: {}
+[35.093683] (-) TimerEvent: {}
+[35.202987] (-) TimerEvent: {}
+[35.303452] (-) TimerEvent: {}
+[35.403859] (-) TimerEvent: {}
+[35.504322] (-) TimerEvent: {}
+[35.605685] (-) TimerEvent: {}
+[35.706660] (-) TimerEvent: {}
+[35.811124] (-) TimerEvent: {}
+[35.911556] (-) TimerEvent: {}
+[36.012080] (-) TimerEvent: {}
+[36.112887] (-) TimerEvent: {}
+[36.218944] (-) TimerEvent: {}
+[36.319592] (-) TimerEvent: {}
+[36.420059] (-) TimerEvent: {}
+[36.520616] (-) TimerEvent: {}
+[36.622703] (-) TimerEvent: {}
+[36.724513] (-) TimerEvent: {}
+[36.825402] (-) TimerEvent: {}
+[36.926033] (-) TimerEvent: {}
+[37.027093] (-) TimerEvent: {}
+[37.131087] (-) TimerEvent: {}
+[37.231471] (-) TimerEvent: {}
+[37.334857] (-) TimerEvent: {}
+[37.435420] (-) TimerEvent: {}
+[37.536168] (-) TimerEvent: {}
+[37.592334] (ros2_comm_demo) StdoutLine: {'line': b'[ 62%] \x1b[32m\x1b[1mLinking CXX executable battery_node\x1b[0m\n'}
+[37.636419] (-) TimerEvent: {}
+[37.647013] (ros2_comm_demo) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable pose_node\x1b[0m\n'}
+[37.736740] (-) TimerEvent: {}
+[37.839003] (-) TimerEvent: {}
+[37.942919] (-) TimerEvent: {}
+[38.045278] (-) TimerEvent: {}
+[38.145970] (-) TimerEvent: {}
+[38.247762] (-) TimerEvent: {}
+[38.350731] (-) TimerEvent: {}
+[38.459562] (-) TimerEvent: {}
+[38.560713] (-) TimerEvent: {}
+[38.661272] (-) TimerEvent: {}
+[38.761983] (-) TimerEvent: {}
+[38.841299] (ros2_comm_demo) StdoutLine: {'line': b'[ 75%] Built target battery_node\n'}
+[38.862375] (-) TimerEvent: {}
+[38.934170] (ros2_comm_demo) StdoutLine: {'line': b'[ 75%] Built target pose_node\n'}
+[38.962840] (-) TimerEvent: {}
+[39.063637] (-) TimerEvent: {}
+[39.164897] (-) TimerEvent: {}
+[39.266805] (-) TimerEvent: {}
+[39.367292] (-) TimerEvent: {}
+[39.469451] (-) TimerEvent: {}
+[39.570865] (-) TimerEvent: {}
+[39.671225] (-) TimerEvent: {}
+[39.771991] (-) TimerEvent: {}
+[39.872619] (-) TimerEvent: {}
+[39.973600] (-) TimerEvent: {}
+[40.074722] (-) TimerEvent: {}
+[40.177794] (-) TimerEvent: {}
+[40.282217] (-) TimerEvent: {}
+[40.383032] (-) TimerEvent: {}
+[40.483961] (-) TimerEvent: {}
+[40.591101] (-) TimerEvent: {}
+[40.691637] (-) TimerEvent: {}
+[40.792093] (-) TimerEvent: {}
+[40.894825] (-) TimerEvent: {}
+[40.996079] (-) TimerEvent: {}
+[41.096994] (-) TimerEvent: {}
+[41.197962] (-) TimerEvent: {}
+[41.298959] (-) TimerEvent: {}
+[41.399620] (-) TimerEvent: {}
+[41.500275] (-) TimerEvent: {}
+[41.600819] (-) TimerEvent: {}
+[41.701314] (-) TimerEvent: {}
+[41.801979] (-) TimerEvent: {}
+[41.902494] (-) TimerEvent: {}
+[42.003863] (-) TimerEvent: {}
+[42.104980] (-) TimerEvent: {}
+[42.205971] (-) TimerEvent: {}
+[42.307050] (-) TimerEvent: {}
+[42.408208] (-) TimerEvent: {}
+[42.508752] (-) TimerEvent: {}
+[42.610097] (-) TimerEvent: {}
+[42.710692] (-) TimerEvent: {}
+[42.811500] (-) TimerEvent: {}
+[42.912154] (-) TimerEvent: {}
+[43.013455] (-) TimerEvent: {}
+[43.114316] (-) TimerEvent: {}
+[43.215310] (-) TimerEvent: {}
+[43.315941] (-) TimerEvent: {}
+[43.416666] (-) TimerEvent: {}
+[43.517683] (-) TimerEvent: {}
+[43.618465] (-) TimerEvent: {}
+[43.719713] (-) TimerEvent: {}
+[43.820564] (-) TimerEvent: {}
+[43.921005] (-) TimerEvent: {}
+[44.022053] (-) TimerEvent: {}
+[44.122742] (-) TimerEvent: {}
+[44.223291] (-) TimerEvent: {}
+[44.324095] (-) TimerEvent: {}
+[44.424604] (-) TimerEvent: {}
+[44.525182] (-) TimerEvent: {}
+[44.626015] (-) TimerEvent: {}
+[44.726914] (-) TimerEvent: {}
+[44.827664] (-) TimerEvent: {}
+[44.929048] (-) TimerEvent: {}
+[45.029684] (-) TimerEvent: {}
+[45.130458] (-) TimerEvent: {}
+[45.231741] (-) TimerEvent: {}
+[45.332444] (-) TimerEvent: {}
+[45.433390] (-) TimerEvent: {}
+[45.534064] (-) TimerEvent: {}
+[45.634881] (-) TimerEvent: {}
+[45.735258] (-) TimerEvent: {}
+[45.835771] (-) TimerEvent: {}
+[45.936457] (-) TimerEvent: {}
+[46.037239] (-) TimerEvent: {}
+[46.137850] (-) TimerEvent: {}
+[46.238838] (-) TimerEvent: {}
+[46.301895] (ros2_comm_demo) StdoutLine: {'line': b'[ 87%] \x1b[32m\x1b[1mLinking CXX executable command_node\x1b[0m\n'}
+[46.338978] (-) TimerEvent: {}
+[46.439543] (-) TimerEvent: {}
+[46.539998] (-) TimerEvent: {}
+[46.640963] (-) TimerEvent: {}
+[46.741694] (-) TimerEvent: {}
+[46.842871] (-) TimerEvent: {}
+[46.944027] (-) TimerEvent: {}
+[47.045581] (-) TimerEvent: {}
+[47.146336] (-) TimerEvent: {}
+[47.247714] (-) TimerEvent: {}
+[47.350802] (-) TimerEvent: {}
+[47.391515] (ros2_comm_demo) StdoutLine: {'line': b'[ 87%] Built target command_node\n'}
+[47.450970] (-) TimerEvent: {}
+[47.551338] (-) TimerEvent: {}
+[47.651720] (-) TimerEvent: {}
+[47.752326] (-) TimerEvent: {}
+[47.852828] (-) TimerEvent: {}
+[47.953647] (-) TimerEvent: {}
+[48.054811] (-) TimerEvent: {}
+[48.155570] (-) TimerEvent: {}
+[48.256130] (-) TimerEvent: {}
+[48.357013] (-) TimerEvent: {}
+[48.457718] (-) TimerEvent: {}
+[48.558445] (-) TimerEvent: {}
+[48.659180] (-) TimerEvent: {}
+[48.760257] (-) TimerEvent: {}
+[48.862089] (-) TimerEvent: {}
+[48.964006] (-) TimerEvent: {}
+[49.065856] (-) TimerEvent: {}
+[49.167732] (-) TimerEvent: {}
+[49.268629] (-) TimerEvent: {}
+[49.369178] (-) TimerEvent: {}
+[49.469739] (-) TimerEvent: {}
+[49.570409] (-) TimerEvent: {}
+[49.671013] (-) TimerEvent: {}
+[49.771511] (-) TimerEvent: {}
+[49.872671] (-) TimerEvent: {}
+[49.973715] (-) TimerEvent: {}
+[50.074342] (-) TimerEvent: {}
+[50.176295] (-) TimerEvent: {}
+[50.278248] (-) TimerEvent: {}
+[50.378782] (-) TimerEvent: {}
+[50.444733] (ros2_comm_demo) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable task_manager_node\x1b[0m\n'}
+[50.479028] (-) TimerEvent: {}
+[50.579456] (-) TimerEvent: {}
+[50.679976] (-) TimerEvent: {}
+[50.781416] (-) TimerEvent: {}
+[50.882460] (-) TimerEvent: {}
+[50.983003] (-) TimerEvent: {}
+[51.083493] (-) TimerEvent: {}
+[51.184147] (-) TimerEvent: {}
+[51.285264] (-) TimerEvent: {}
+[51.385604] (-) TimerEvent: {}
+[51.486889] (-) TimerEvent: {}
+[51.554328] (ros2_comm_demo) StdoutLine: {'line': b'[100%] Built target task_manager_node\n'}
+[51.566723] (ros2_comm_demo) CommandEnded: {'returncode': 0}
+[51.568157] (ros2_comm_demo) JobProgress: {'identifier': 'ros2_comm_demo', 'progress': 'install'}
+[51.568665] (ros2_comm_demo) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ace/my_modern_cpp_lesson/lesson4/ros2_comm_demo/build/ros2_comm_demo'], 'cwd': '/home/ace/my_modern_cpp_lesson/lesson4/ros2_comm_demo/build/ros2_comm_demo', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('SVGA_VGPU10', '0'), ('USER', 'ace'), ('GIT_ASKPASS', '/home/ace/.vscode-server/bin/ce099c1ed25d9eb3076c11e4a280f3eb52b4fbeb/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/home/ace/my_modern_cpp_lesson/lesson4/ros2_comm_demo/install/robot_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/ace'), ('OLDPWD', '/home/ace/my_modern_cpp_lesson/lesson4/ros2_comm_demo'), ('TERM_PROGRAM_VERSION', '1.111.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-35282fbe-d045-4e50-840f-5954d6e93d3e.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/ace/.vscode-server/bin/ce099c1ed25d9eb3076c11e4a280f3eb52b4fbeb/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/ace/.vscode-server/bin/ce099c1ed25d9eb3076c11e4a280f3eb52b4fbeb/node'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ace'), ('NAME', 'DESKTOP-CD3R3PF'), ('WSL_INTEROP', '/run/WSL/430_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ace/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/ace/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/ace/.vscode-server/bin/ce099c1ed25d9eb3076c11e4a280f3eb52b4fbeb/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/d/vscode/Microsoft VS Code:/mnt/c/Python38/Scripts/:/mnt/c/Python38/:/mnt/c/Program Files/PlasticSCM5/server:/mnt/c/Program Files/PlasticSCM5/client:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/d/adb:/mnt/d/微信web开发者工具/dll:/mnt/c/Pro:/mnt/c/Program Files/nodejs:/mnt/c/Program Files/MySQL/MySQL Server 8.0/bin:/mnt/c/Users/86159/AppData/Roaming/Python:/mnt/c/Program Files/python/Scripts:/mnt/d/BtSoft/panel/script:/mnt/c/Program Files (x86)/Prince/engine/bin:/mnt/d/Git/cmd:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR:/mnt/c/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/160/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/160/DTS/Binn/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/e/Tailscale/:/mnt/c/Program Files/Tailscale/:/mnt/e/MATLAB/runtime/win64:/mnt/e/MATLAB/bin:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/OpenSSL/bin:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/PlasticSCM5/server:/mnt/c/Program Files/PlasticSCM5/client:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0:/mnt/c/Windows/System32/OpenSSH:/mnt/d/adb:/mnt/d/微信web开发者工具/dll:/mnt/c/Pro:/mnt/c/Program Files/nodejs:/mnt/c/Program Files/MySQL/MySQL Server 8.0/bin:/mnt/c/Users/86159/AppData/Roaming/Python:/mnt/c/Program Files/python/Scripts:/mnt/d/BtSoft/panel/script:/mnt/c/Program Files (x86)/Prince/engine/bin:/mnt/d/Git/cmd:/mnt/c/Program Files/dotnet:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR:/mnt/c/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn:/mnt/c/Program Files/Microsoft SQL Server/160/Tools/Binn:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn:/mnt/c/Program Files/Microsoft SQL Server/160/DTS/Binn:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Perform:/mnt/d/vscode/Microsoft VS Code/bin:/mnt/c/Users/86159/AppData/Local/Microsoft/WindowsApps:/mnt/e/Antigravity/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-0040df804d.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/ace/my_modern_cpp_lesson/lesson4/ros2_comm_demo/install/robot_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/ace/my_modern_cpp_lesson/lesson4/ros2_comm_demo/build/ros2_comm_demo'), ('TURTLEBOT3_MODEL', 'burger'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ace/my_modern_cpp_lesson/lesson4/ros2_comm_demo/install/robot_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up'), ('CMAKE_PREFIX_PATH', '/home/ace/my_modern_cpp_lesson/lesson4/ros2_comm_demo/install/robot_interfaces:/opt/ros/humble')]), 'shell': False}
+[51.579606] (ros2_comm_demo) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[51.580591] (ros2_comm_demo) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[51.583520] (ros2_comm_demo) StdoutLine: {'line': b'-- Symlinking: /home/ace/my_modern_cpp_lesson/lesson4/ros2_comm_demo/install/ros2_comm_demo/lib/ros2_comm_demo/battery_node\n'}
+[51.587040] (-) TimerEvent: {}
+[51.593871] (ros2_comm_demo) StdoutLine: {'line': b'-- Symlinking: /home/ace/my_modern_cpp_lesson/lesson4/ros2_comm_demo/install/ros2_comm_demo/lib/ros2_comm_demo/command_node\n'}
+[51.608773] (ros2_comm_demo) StdoutLine: {'line': b'-- Symlinking: /home/ace/my_modern_cpp_lesson/lesson4/ros2_comm_demo/install/ros2_comm_demo/lib/ros2_comm_demo/pose_node\n'}
+[51.623324] (ros2_comm_demo) StdoutLine: {'line': b'-- Symlinking: /home/ace/my_modern_cpp_lesson/lesson4/ros2_comm_demo/install/ros2_comm_demo/lib/ros2_comm_demo/task_manager_node\n'}
+[51.636789] (ros2_comm_demo) StdoutLine: {'line': b'-- Symlinking: /home/ace/my_modern_cpp_lesson/lesson4/ros2_comm_demo/install/ros2_comm_demo/share/ros2_comm_demo/launch/launch.py\n'}
+[51.649194] (ros2_comm_demo) StdoutLine: {'line': b'-- Symlinking: /home/ace/my_modern_cpp_lesson/lesson4/ros2_comm_demo/install/ros2_comm_demo/share/ament_index/resource_index/package_run_dependencies/ros2_comm_demo\n'}
+[51.663194] (ros2_comm_demo) StdoutLine: {'line': b'-- Symlinking: /home/ace/my_modern_cpp_lesson/lesson4/ros2_comm_demo/install/ros2_comm_demo/share/ament_index/resource_index/parent_prefix_path/ros2_comm_demo\n'}
+[51.675465] (ros2_comm_demo) StdoutLine: {'line': b'-- Symlinking: /home/ace/my_modern_cpp_lesson/lesson4/ros2_comm_demo/install/ros2_comm_demo/share/ros2_comm_demo/environment/ament_prefix_path.sh\n'}
+[51.688771] (-) TimerEvent: {}
+[51.695987] (ros2_comm_demo) StdoutLine: {'line': b'-- Symlinking: /home/ace/my_modern_cpp_lesson/lesson4/ros2_comm_demo/install/ros2_comm_demo/share/ros2_comm_demo/environment/ament_prefix_path.dsv\n'}
+[51.715858] (ros2_comm_demo) StdoutLine: {'line': b'-- Symlinking: /home/ace/my_modern_cpp_lesson/lesson4/ros2_comm_demo/install/ros2_comm_demo/share/ros2_comm_demo/environment/path.sh\n'}
+[51.728504] (ros2_comm_demo) StdoutLine: {'line': b'-- Symlinking: /home/ace/my_modern_cpp_lesson/lesson4/ros2_comm_demo/install/ros2_comm_demo/share/ros2_comm_demo/environment/path.dsv\n'}
+[51.740747] (ros2_comm_demo) StdoutLine: {'line': b'-- Symlinking: /home/ace/my_modern_cpp_lesson/lesson4/ros2_comm_demo/install/ros2_comm_demo/share/ros2_comm_demo/local_setup.bash\n'}
+[51.756998] (ros2_comm_demo) StdoutLine: {'line': b'-- Symlinking: /home/ace/my_modern_cpp_lesson/lesson4/ros2_comm_demo/install/ros2_comm_demo/share/ros2_comm_demo/local_setup.sh\n'}
+[51.772990] (ros2_comm_demo) StdoutLine: {'line': b'-- Symlinking: /home/ace/my_modern_cpp_lesson/lesson4/ros2_comm_demo/install/ros2_comm_demo/share/ros2_comm_demo/local_setup.zsh\n'}
+[51.783508] (ros2_comm_demo) StdoutLine: {'line': b'-- Symlinking: /home/ace/my_modern_cpp_lesson/lesson4/ros2_comm_demo/install/ros2_comm_demo/share/ros2_comm_demo/local_setup.dsv\n'}
+[51.789058] (-) TimerEvent: {}
+[51.795009] (ros2_comm_demo) StdoutLine: {'line': b'-- Symlinking: /home/ace/my_modern_cpp_lesson/lesson4/ros2_comm_demo/install/ros2_comm_demo/share/ros2_comm_demo/package.dsv\n'}
+[51.808694] (ros2_comm_demo) StdoutLine: {'line': b'-- Symlinking: /home/ace/my_modern_cpp_lesson/lesson4/ros2_comm_demo/install/ros2_comm_demo/share/ament_index/resource_index/packages/ros2_comm_demo\n'}
+[51.820472] (ros2_comm_demo) StdoutLine: {'line': b'-- Symlinking: /home/ace/my_modern_cpp_lesson/lesson4/ros2_comm_demo/install/ros2_comm_demo/share/ros2_comm_demo/cmake/ros2_comm_demoConfig.cmake\n'}
+[51.830315] (ros2_comm_demo) StdoutLine: {'line': b'-- Symlinking: /home/ace/my_modern_cpp_lesson/lesson4/ros2_comm_demo/install/ros2_comm_demo/share/ros2_comm_demo/cmake/ros2_comm_demoConfig-version.cmake\n'}
+[51.840729] (ros2_comm_demo) StdoutLine: {'line': b'-- Symlinking: /home/ace/my_modern_cpp_lesson/lesson4/ros2_comm_demo/install/ros2_comm_demo/share/ros2_comm_demo/package.xml\n'}
+[51.854217] (ros2_comm_demo) CommandEnded: {'returncode': 0}
+[51.876629] (ros2_comm_demo) JobEnded: {'identifier': 'ros2_comm_demo', 'rc': 0}
+[51.877937] (-) EventReactorShutdown: {}

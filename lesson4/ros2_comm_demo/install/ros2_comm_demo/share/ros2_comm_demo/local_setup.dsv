@@ -1,2 +1,1 @@
-source;share/ros2_comm_demo/environment/ament_prefix_path.sh
-source;share/ros2_comm_demo/environment/path.sh
+/home/ace/my_modern_cpp_lesson/lesson4/ros2_comm_demo/build/ros2_comm_demo/ament_cmake_environment_hooks/local_setup.dsv

@@ -1,0 +1,23 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from robot_interfaces/srv/GetRobotStatus.srv
+// generated code does not contain a copyright notice
+
+
+module robot_interfaces {
+  module srv {
+    struct GetRobotStatus_Request {
+      uint8 structure_needs_at_least_one_member;
+    };
+    struct GetRobotStatus_Response {
+      string battery_level;
+
+      double x;
+
+      double y;
+
+      double z;
+
+      boolean has_task;
+    };
+  };
+};

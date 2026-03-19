@@ -1,0 +1,1 @@
+/home/ace/my_modern_cpp_lesson/lesson4/ros2_comm_demo/build/robot_interfaces/ament_cmake_python/robot_interfaces/robot_interfaces.egg-info/top_level.txt
