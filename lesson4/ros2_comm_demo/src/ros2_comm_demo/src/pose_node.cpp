@@ -10,7 +10,7 @@ class PoseNode : public rclcpp::Node
 public:
     PoseNode() : Node("pose_node")
     {
-        publisher_ = this->create_publisher<geometry_msgs::msg::PointStamped>("robot_position", 10);
+        publisher_ = this->create_publisher<geometry_msgs::msg::PointStamped>("robot_pose", 10);
         timer_ = this->create_wall_timer(1000ms, [this]()
                                          { timer_callback(); });
     }
